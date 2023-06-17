@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(35deg,violet,blue);
+  height: 100vh;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dropdown{
+  background-color: white;
+  width: 50%;
+  height:70vh;
+  text-align: center;
+  padding: 16px;
+  margin: 60px auto;
+  color: blueviolet;
+  border-radius: 10px;
+}
+h1{
+  font-size: 40px;
+}
+.select-btn{
+ background-color: rgba(118, 9, 219, 0.774);
+color: white;
+margin:20px auto 1px;
+padding: 5px 45px ;
+border:1px solid rgb(76, 12, 131);
+}
+.options{
+  width: 150px;
+  margin: auto;
+  padding: 5px;
+}
+.options a{
+  text-decoration: none;
+  padding: 2px auto;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  height:35px;
+}
+.options a:hover {
+  background-color: rgba(118, 9, 219, 0.774);
+  color: white;
+}
+
+
+
+ 
