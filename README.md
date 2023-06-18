@@ -1,4 +1,12 @@
 # Getting Started with Create React App
+On hovering of the button, show the drop down items.
+The dropdown component will receive the elements array to display the elements in the list.
+On click of an option in dropdown list, close the dropdown.
+used functional component
+useStatehooks makes easy for using updating states of the components
+usage of onclick and onmouseenter events enable the behaviour to component
+
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
