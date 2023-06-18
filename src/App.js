@@ -20,7 +20,9 @@ function App() {
       <h1>Should you use a dropdown?</h1>
       <h3>{value}</h3>
       
-      <button className = "select-btn" onMouseEnter = {handleMouseEnter} >Select</button>
+      <button className = "select-btn" onMouseEnter = {handleMouseEnter} >Select
+      
+      </button>
       <div className = "options" style = { { display: `${ ishover ? 'block' : 'none' }` } }>
        {/* map function to iterate the elements list  */}
         {  elements.map((elem,index) => {
